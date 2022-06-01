@@ -1,0 +1,31 @@
+<body>
+    <!-- categories container -->
+    <div id="categories" *ngFor="let categorie of categoriesList">
+        <div class="categories-head">
+            <div class="left-container">
+            </div>
+            <div class="right-container">
+            </div>
+        </div>
+        <div class="categories-main-container">
+            <div class="categories-text">
+                <div class="text-style">
+                    {{categorie.title}}
+                </div>
+            </div>
+            <div class="categories-image-section">
+                <img class="categories-image" [src]="categorie.image" style="width:50%">
+            </div>
+            <div class="categories-description">
+                {{categorie.description}}
+            </div>
+        </div>
+    </div>
+    <div class="categories-head">
+        <div class="left-container">
+        </div>
+        <div class="right-container">
+        </div>
+    </div>
+</body>
+<app-footer></app-footer>

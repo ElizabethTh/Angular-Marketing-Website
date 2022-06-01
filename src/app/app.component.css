@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*................................ header navigation menu section................... */
+.page-header {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+img.craft {
+  margin: 0 16px;
+  max-height: 90px;
+}
+
+
+.nav-menu-bar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-menu-bar-text {
+  margin-right: 20px;
+}
+
+.nav-menu-bar-text a {
+  text-decoration: none;
+  color: #000000;
+  padding: 28px;
+  font-weight: bold;
+}
+
+.active,
+.nav-menu-bar-text a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #F16028;
+}
